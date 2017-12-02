@@ -33,6 +33,28 @@ namespace CodeProjectScrape
                 CountryName = Name;
             }
         }
+        public class SampleData
+        {
+            public List<Country> Countries;
+            public List<PersonData> People;
+
+            public SampleData()
+            {
+                Countries = new List<Country>();
+                People = new List<PersonData>();
+
+                Countries.Add(new Country(1, "United Kingdom"));
+                Countries.Add(new Country(2, "United States"));
+                Countries.Add(new Country(3, "Republic of Ireland"));
+                Countries.Add(new Country(4, "Ivory Coast"));
+
+                People.Add(new PersonData(1, 1, "AJson"));
+                People.Add(new PersonData(2, 2, "Fred"));
+                People.Add(new PersonData(3, 2, "Mary"));
+            }
+        }
+
+        
         static void Main(string[] args)
         {
             //comments
