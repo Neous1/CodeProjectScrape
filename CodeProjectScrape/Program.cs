@@ -10,6 +10,7 @@ namespace CodeProjectScrape
     {
         static void Main(string[] args)
         {
+            //comments
         }
     }
 }
