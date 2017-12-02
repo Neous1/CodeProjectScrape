@@ -22,7 +22,17 @@ namespace CodeProjectScrape
             }
         }
 
+        public class Country
+        {
+            public int ID { get; set; }
+            public string CountryName { get; set; }
 
+            public Country(int id, string Name)
+            {
+                ID = id;
+                CountryName = Name;
+            }
+        }
         static void Main(string[] args)
         {
             //comments
